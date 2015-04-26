@@ -1,0 +1,5 @@
+diceware (0.8-1) unstable; urgency=low
+
+  * Initial debianization. Closes: 796709
+
+ -- Andre Bianchi <drebs@riseup.net>  Thu, 9 May 2016 06:23:34 -0300

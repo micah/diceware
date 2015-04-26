@@ -1,0 +1,18 @@
+Source: diceware
+Maintainer: Micah Anderson <micah@debian.org>
+Uploaders: Andre Bianchi <drebs@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools, python-all, debhelper (>=9), dh-python
+Standards-Version: 3.9.6
+Vcs-Git: git://github.com/ulif/diceware.git
+Vcs-browser: https://github.com/ulif/diceware
+Homepage: https://github.com/ulif/diceware
+
+Package: diceware
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends} 
+Description: Passphrases to remember...
+ Passphrase generator following the proposals of Arnold G.
+ Reinhold on http://diceware.com . It generates passphrases by concatenating
+ words randomly picked from wordlists.
