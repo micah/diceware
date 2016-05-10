@@ -4,7 +4,7 @@ Uploaders: Andre Bianchi <drebs@riseup.net>
 Section: python
 Priority: optional
 Build-Depends: python-setuptools, python-all, debhelper (>=9), dh-python
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Vcs-Git: https://github.com/ulif/diceware.git
 Vcs-browser: https://github.com/ulif/diceware
 Homepage: https://github.com/ulif/diceware
